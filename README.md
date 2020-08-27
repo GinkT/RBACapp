@@ -20,3 +20,6 @@
 # Пример использования
 ![image](https://i.imgur.com/r0JMYFM.jpg)
 
+Работа логгера:
+![imagelogger](https://i.imgur.com/cL3UXuh.jpg)
+

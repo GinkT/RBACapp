@@ -28,7 +28,7 @@
 Для проверки приложения можно также использовать докер.
 Сборка и запуск контейнера:
 
-`docker build -t rbacapp .
-docker run --publish 8000:8000 --name test --rm rbacapp`
+`docker build -t rbacapp .`
+`docker run --publish 8000:8000 --name test --rm rbacapp`
 
 

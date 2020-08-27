@@ -51,11 +51,17 @@ func (u User) GetPID() string { return u.Email }
 // GetPassword from user
 func (u User) GetPassword() string { return u.Password }
 
+// GetRole from user
+func (u User) GetRole() string { return u.Role }
+
 // PutPID into user
 func (u *User) PutPID(pid string) { u.Email = pid }
 
 // PutPassword into user
 func (u *User) PutPassword(password string) { u.Password = password }
+
+// PutRole into user
+func (u *User) PutRole(role string) { u.Role = role }
 
 // Load the user
 func (m MemStorer) Load(_ context.Context, key string) (user authboss.User, err error) {

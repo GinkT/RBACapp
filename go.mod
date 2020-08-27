@@ -3,10 +3,10 @@ module github.com/GinkT/RBACapp
 go 1.14
 
 require (
-	github.com/davecgh/go-spew v1.1.1
 	github.com/go-chi/chi v4.1.2+incompatible
 	github.com/golang/protobuf v1.4.2 // indirect
 	github.com/gorilla/sessions v1.2.1
+	github.com/mikespook/gorbac v2.1.0+incompatible
 	github.com/volatiletech/authboss-clientstate v0.0.0-20200826024349-8d4e74078241
 	github.com/volatiletech/authboss-renderer v0.0.0-20200703184356-6cbaa5b2354e
 	github.com/volatiletech/authboss/v3 v3.0.1
